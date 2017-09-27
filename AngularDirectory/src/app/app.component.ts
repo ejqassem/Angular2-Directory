@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeComponent } from './home/home.component';
 
 @Component({
   // selector = id that is replaced with component html
@@ -10,5 +11,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // properties on the class available to the template
-  title = 'app works! forreal doe';
+  title = 'Test Angular application';
+  name = 'My name is Eyad';
 }
